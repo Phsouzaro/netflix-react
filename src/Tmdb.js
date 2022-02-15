@@ -19,6 +19,7 @@ const basicFetch = async (endPoint) => {
     return json;
 }
 
+
 export default {
     getHomeList: async () => {
         return [
